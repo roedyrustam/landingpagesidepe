@@ -9,24 +9,24 @@
     <meta name="keywords" content="bootstrap 4, premium, marketing, multipurpose" />
     <meta content="Themesdesign" name="author" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="<?= base_url() ?>/template/images/favicon.ico">
+    <link rel="shortcut icon" href="<?= base_url() ?>/public/template/images/favicon.ico">
     <!-- Bootstrap -->
-    <link href="<?= base_url() ?>/template/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() ?>/public/template/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Magnific -->
-    <link href="<?= base_url() ?>/template/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() ?>/public/template/css/magnific-popup.css" rel="stylesheet" type="text/css" />
     <!-- Icon -->
-    <link href="<?= base_url() ?>/template/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-    <link href="<?= base_url() ?>/template/css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() ?>/public/template/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() ?>/public/template/css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" />
     <!-- SLICK SLIDER -->
-    <link rel="stylesheet" href="<?= base_url() ?>/template/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="<?= base_url() ?>/template/css/owl.theme.css" />
-    <link rel="stylesheet" href="<?= base_url() ?>/template/css/owl.transitions.css" />
+    <link rel="stylesheet" href="<?= base_url() ?>/public/template/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="<?= base_url() ?>/public/template/css/owl.theme.css" />
+    <link rel="stylesheet" href="<?= base_url() ?>/public/template/css/owl.transitions.css" />
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="<?= base_url() ?>/template/css/swiper.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/template/css/swiper.min.css">
     <!-- Animation -->
-    <link rel="stylesheet" href="<?= base_url() ?>/template/css/aos.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/public/template/css/aos.css">
     <!-- Custom Css -->
-    <link href="<?= base_url() ?>/template/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="<?= base_url() ?>/public/template/css/style.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -57,8 +57,8 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <!-- Applock -->
-                <img src="<?= base_url() ?>/template/images/logo-sidepe.png" class="l-dark" height="23" alt="">
-                <img src="<?= base_url() ?>/template/images/logo-sidepe.png" class="l-light" height="23" alt="">
+                <img src="<?= base_url() ?>/public/template/images/logo-sidepe.png" class="l-dark" height="23" alt="">
+                <img src="<?= base_url() ?>/public/template/images/logo-sidepe.png" class="l-light" height="23" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="mdi mdi-menu"></span>
@@ -102,7 +102,7 @@
     <!-- Navbar End -->
 
     <!-- HOME START-->
-    <section class="bg-home-1" style="background-image:url('<?= base_url() ?>/template/images/bg-7.jpg')" id="home">
+    <section class="bg-home-1" style="background-image:url('<?= base_url() ?>/public/template/images/bg-7.jpg')" id="home">
         <div class="bg-overlay"></div>
         <div class="home-center">
             <div class="home-desc-center">
@@ -124,7 +124,7 @@
 
                         <div class="col-lg-5 col-md-6 mt-4 pt-2">
                             <div class="home-img text-md-right">
-                                <img src="<?= base_url() ?>/template/images/home/mobile05.png" class="img-fluid mover-img" alt="">
+                                <img src="<?= base_url() ?>/public/template/images/home/mobile05.png" class="img-fluid mover-img" alt="">
                             </div>
                         </div>
                         <!--end col-->
@@ -145,7 +145,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-5">
-                    <img src="<?= base_url() ?>/template/images/ab01.png" class="img-fluid" data-aos="fade-right" alt="">
+                    <img src="<?= base_url() ?>/public/template/images/ab01.png" class="img-fluid" data-aos="fade-right" alt="">
                 </div>
                 <!--end col-->
 
@@ -173,7 +173,7 @@
                 <!--end col-->
 
                 <div class="col-md-5 order-1 order-md-2">
-                    <img src="<?= base_url() ?>/template/images/ab02.png" class="img-fluid" data-aos="fade-left" alt="">
+                    <img src="<?= base_url() ?>/public/template/images/ab02.png" class="img-fluid" data-aos="fade-left" alt="">
                 </div>
                 <!--end col-->
             </div>
@@ -237,7 +237,7 @@
 
                 <div class="col-lg-4 mt-4 pt-2 core-service-img">
                     <div class="ml-lg-4 mr-lg-4">
-                        <img src="<?= base_url() ?>/template/images/features1.png" class="img-fluid mx-auto" data-aos="zoom-in-down" alt="">
+                        <img src="<?= base_url() ?>/public/template/images/features1.png" class="img-fluid mx-auto" data-aos="zoom-in-down" alt="">
                     </div>
                 </div>
                 <!--end col-->
@@ -292,7 +292,7 @@
                 <div class="col-12">
                     <h5 class="text-light text-uppercase">How We do it. Play And Watch !</h5>
                     <a href="http://vimeo.com/42828845" class="play-btn video-play-icon">
-                        <img src="<?= base_url() ?>/template/images/icon/play-button-light.png" class="img-fluid mt-4 pt-2" alt="">
+                        <img src="<?= base_url() ?>/public/template/images/icon/play-button-light.png" class="img-fluid mt-4 pt-2" alt="">
                     </a>
                     <h6 class="text-white text-uppercase mt-3">View App Promo</h6>
                 </div>
@@ -324,7 +324,7 @@
                 <div class="col-md-4 mt-4 pt-2">
                     <div class="device-feature device-border text-center">
                         <div class="icon mb-4 position-relative d-inline-block">
-                            <img src="<?= base_url() ?>/template/images/icon/pc.png" class="img-fluid" alt="">
+                            <img src="<?= base_url() ?>/public/template/images/icon/pc.png" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h4 class="title mb-3">PC / Laptop</h4>
@@ -337,7 +337,7 @@
                 <div class="col-md-4 mt-4 pt-2">
                     <div class="device-feature device-border text-center">
                         <div class="icon mb-4 position-relative d-inline-block">
-                            <img src="<?= base_url() ?>/template/images/icon/ipad.png" class="img-fluid" alt="">
+                            <img src="<?= base_url() ?>/public/template/images/icon/ipad.png" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h4 class="title mb-3">Tablet / Ipad</h4>
@@ -350,7 +350,7 @@
                 <div class="col-md-4 mt-4 pt-2">
                     <div class="device-feature text-center">
                         <div class="icon mb-4 position-relative d-inline-block">
-                            <img src="<?= base_url() ?>/template/images/icon/app.png" class="img-fluid" alt="">
+                            <img src="<?= base_url() ?>/public/template/images/icon/app.png" class="img-fluid" alt="">
                         </div>
                         <div class="content">
                             <h4 class="title mb-3">Android / Apple </h4>
@@ -364,7 +364,7 @@
 
             <div class="row justify-content-center mt-5 pt-2">
                 <div class="col-9">
-                    <img src="<?= base_url() ?>/template/images/mobile-hori.png" class="img-fluid mover-img" alt="">
+                    <img src="<?= base_url() ?>/public/template/images/mobile-hori.png" class="img-fluid mover-img" alt="">
                 </div>
                 <!--end col-->
             </div>
@@ -376,7 +376,7 @@
     <!-- Available Feature Start -->
 
     <!-- START COUNTER -->
-    <section class="bg-counter" style="background: url('<?= base_url() ?>/template/images/counter.jpg') fixed center center;">
+    <section class="bg-counter" style="background: url('<?= base_url() ?>/public/template/images/counter.jpg') fixed center center;">
         <div class="bg-overlay"></div>
         <div class="container">
             <div class="row" id="counter">
@@ -454,19 +454,19 @@
             <div class="row justify-content-center mt-4 pt-2">
                 <div class="col-12 swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/1.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/2.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/3.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/4.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/5.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/6.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/7.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/8.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/9.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/10.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/11.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/12.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="<?= base_url() ?>/template/images/sc/13.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/1.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/2.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/3.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/4.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/5.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/6.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/7.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/8.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/9.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/10.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/11.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/12.png" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="<?= base_url() ?>/public/template/images/sc/13.png" class="img-fluid" alt=""></div>
                     </div>
                     <!-- Add Arrows  -->
                     <div class="swiper-button-next">
@@ -479,7 +479,7 @@
 
                 <div class="col-lg-5 col-md-5 col-12 mb-0 mb-md-5 mb-4 mb-sm-0">
                     <div class="screenshot-cell">
-                        <img src="<?= base_url() ?>/template/images/sc/mo-sc.png" class="img-fluid" alt="">
+                        <img src="<?= base_url() ?>/public/template/images/sc/mo-sc.png" class="img-fluid" alt="">
                     </div>
                 </div>
                 <!--end col-->
@@ -492,7 +492,7 @@
     <!-- END SCREENSHORT -->
 
     <!-- Testimonail Start -->
-    <section class="section" id="review" style="background:url('<?= base_url() ?>/template/images/testi1.jpg') fixed center center;">
+    <section class="section" id="review" style="background:url('<?= base_url() ?>/public/template/images/testi1.jpg') fixed center center;">
         <div class="bg-overlay"></div>
         <div class="container">
             <div class="row justify-content-center">
@@ -505,7 +505,7 @@
                             <div class="content-review">
                                 <p class="review font-italic text-white-50 mt-3">" SiDepe Menjadikan Desa Sumberjaya bekasi menjadi Pioner pertama di bekasi dalam Menyambut Digitalisasi Desa "</p>
                                 <h5 class="name mb-1 mt-3 text-light">Desa Sumberjaya Bekasi</h5>
-                                <img src="<?= base_url() ?>/template/images/client/matam.jpg" class="img-fluid rounded-pill img-thumbnail mt-3" alt="">
+                                <img src="<?= base_url() ?>/public/template/images/client/matam.jpg" class="img-fluid rounded-pill img-thumbnail mt-3" alt="">
                             </div>
                         </div>
                         <!--end content-->
@@ -513,7 +513,7 @@
                             <div class="content-review">
                                 <p class="review font-italic text-white-50 mt-3">" Literature from 45 BC, making sure there making sure there isn't years old in a piece of classical Latin literature from 45 BC, making sure there isn't years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia "</p>
                                 <h5 class="name mb-1 mt-3 text-light">Jeson Roy</h5>
-                                <img src="<?= base_url() ?>/template/images/client/02.jpg" class="img-fluid rounded-pill img-thumbnail mt-3" alt="">
+                                <img src="<?= base_url() ?>/public/template/images/client/02.jpg" class="img-fluid rounded-pill img-thumbnail mt-3" alt="">
                             </div>
                         </div>
                         <!--end content-->
@@ -521,7 +521,7 @@
                             <div class="content-review">
                                 <p class="review font-italic text-white-50 mt-3">" Classical Latin literature from 45 BC, making literature from literature from 45 BC, making sure there making sure there isn't years old sure there isn't years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia "</p>
                                 <h5 class="name mb-1 mt-3 text-light">Kevin Peterson</h5>
-                                <img src="<?= base_url() ?>/template/images/client/03.jpg" class="img-fluid rounded-pill img-thumbnail mt-3" alt="">
+                                <img src="<?= base_url() ?>/public/template/images/client/03.jpg" class="img-fluid rounded-pill img-thumbnail mt-3" alt="">
                             </div>
                         </div>
                         <!--end content-->
@@ -530,12 +530,12 @@
             </div> <!-- end row -->
 
             <div class="row mt-5 text-center">
-                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/template/images/client/1.png" class="img-fluid" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/template/images/client/2.png" class="img-fluid" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/template/images/client/3.png" class="img-fluid" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/template/images/client/4.png" class="img-fluid" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/template/images/client/5.png" class="img-fluid" alt=""></div>
-                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/template/images/client/6.png" class="img-fluid" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/public/template/images/client/1.png" class="img-fluid" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/public/template/images/client/2.png" class="img-fluid" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/public/template/images/client/3.png" class="img-fluid" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/public/template/images/client/4.png" class="img-fluid" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/public/template/images/client/5.png" class="img-fluid" alt=""></div>
+                <div class="col-lg-2 col-md-4 col-6"><img src="<?= base_url() ?>/public/template/images/client/6.png" class="img-fluid" alt=""></div>
             </div>
         </div>
         <!--end container fluid-->
@@ -546,7 +546,7 @@
 
 
     <!-- CTA Download Start -->
-    <section class="section" style="background:url('<?= base_url() ?>/template/images/download.jpg') fixed center center;" id="download">
+    <section class="section" style="background:url('<?= base_url() ?>/public/template/images/download.jpg') fixed center center;" id="download">
         <div class="bg-overlay"></div>
         <div class="container">
             <div class="row">
@@ -564,8 +564,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <ul class="list-unstyled mb-0 app-download text-center">
-                        <li class="list-inline-item"><a href="https://play.google.com/store/apps/details?id=com.demo.sidepe&hl=in&gl=US"><img src="<?= base_url() ?>/template/images/apple.png" class="img-fluid mt-2" alt=""></a></li>
-                        <li class="list-inline-item"><a href="https://play.google.com/store/apps/details?id=com.demo.sidepe&hl=in&gl=US"><img src="<?= base_url() ?>/template/images/google.png" class="img-fluid mt-2" alt=""></a></li>
+                        <li class="list-inline-item"><a href="https://play.google.com/store/apps/details?id=com.demo.sidepe&hl=in&gl=US"><img src="<?= base_url() ?>/public/template/images/apple.png" class="img-fluid mt-2" alt=""></a></li>
+                        <li class="list-inline-item"><a href="https://play.google.com/store/apps/details?id=com.demo.sidepe&hl=in&gl=US"><img src="<?= base_url() ?>/public/template/images/google.png" class="img-fluid mt-2" alt=""></a></li>
                     </ul>
                 </div>
                 <!--end col-->
@@ -596,7 +596,7 @@
                 <div class="col-lg-12">
                     <div class="custom-form mb-sm-30">
                         <div id="message"></div>
-                        <form method="post" action="<?= base_url() ?>/template/php/contact.php" name="contact-form" id="contact-form">
+                        <form method="post" action="<?= base_url() ?>/public/template/php/contact.php" name="contact-form" id="contact-form">
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
                                     <div class="form-group position-relative mb-4">
@@ -701,28 +701,28 @@
     </a>
     <!-- Back to top -->
     <!-- javascript -->
-    <script src="<?= base_url() ?>/template/js/jquery.min.js"></script>
-    <script src="<?= base_url() ?>/template/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url() ?>/template/js/jquery.easing.min.js"></script>
-    <script src="<?= base_url() ?>/template/js/scrollspy.min.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/jquery.min.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/jquery.easing.min.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/scrollspy.min.js"></script>
     <!-- SLIDER -->
-    <script src="<?= base_url() ?>/template/js/owl.carousel.min.js "></script>
+    <script src="<?= base_url() ?>/public/template/js/owl.carousel.min.js "></script>
     <!-- Magnific Popup -->
-    <script src="<?= base_url() ?>/template/js/jquery.magnific-popup.min.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/jquery.magnific-popup.min.js"></script>
     <!-- Contact -->
-    <script src="<?= base_url() ?>/template/js/contact.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/contact.js"></script>
     <!-- Counter -->
-    <script src="<?= base_url() ?>/template/js/counter.init.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/counter.init.js"></script>
     <!-- Swiper JS -->
-    <script src="<?= base_url() ?>/template/js/swiper.min.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/swiper.min.js"></script>
     <!-- Animation JS -->
-    <script src="<?= base_url() ?>/template/js/aos.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/aos.js"></script>
     <!-- Animation JS -->
-    <script src="<?= base_url() ?>/template/js/jquery.nicescroll.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/jquery.nicescroll.js"></script>
     <!-- Plugin init -->
-    <script src="<?= base_url() ?>/template/js/plugin.init.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/plugin.init.js"></script>
     <!-- Main Js -->
-    <script src="<?= base_url() ?>/template/js/app.js"></script>
+    <script src="<?= base_url() ?>/public/template/js/app.js"></script>
 </body>
 
 </html>
